@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background-image: url('pexels-anush-1229356.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header, footer {
+    background-color: rgba(242, 237, 237, 0.6); /* Semi-transparent background */
+    text-align: center;
+    padding: 1em 0;
+  
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 120px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+}
+
+.intro, .features {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 60px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+}
+
+.feature-box {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
